@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921A38991E9FAC9000BC7DD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921A38981E9FAC9000BC7DD4 /* main.cpp */; };
+		921A389D1E9FACF300BC7DD4 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921A38901E9FAC6800BC7DD4 /* tinyxml2.cpp */; };
+		921A389E1E9FACF300BC7DD4 /* TCLogBaseResultItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */; };
+		921A389F1E9FACF300BC7DD4 /* TCBaseLogEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BA61E9E522500F909EE /* TCBaseLogEvent.cpp */; };
+		921A38A01E9FACF300BC7DD4 /* TCBaseLogReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BA71E9E522500F909EE /* TCBaseLogReader.cpp */; };
+		921A38A11E9FAD0C00BC7DD4 /* TCLogConfig.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 921A38711E9FA8E100BC7DD4 /* TCLogConfig.xml */; };
+		92425BA81E9E522500F909EE /* TCBaseLogEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BA61E9E522500F909EE /* TCBaseLogEvent.cpp */; };
+		92425BA91E9E522500F909EE /* TCBaseLogReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BA71E9E522500F909EE /* TCBaseLogReader.cpp */; };
+		92425BAF1E9E540700F909EE /* TCLogBaseResultItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		921A38941E9FAC9000BC7DD4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				921A38A11E9FAD0C00BC7DD4 /* TCLogConfig.xml in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		92425B931E9E51D900F909EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		921A38711E9FA8E100BC7DD4 /* TCLogConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TCLogConfig.xml; sourceTree = "<group>"; };
+		921A38901E9FAC6800BC7DD4 /* tinyxml2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml2.cpp; sourceTree = "<group>"; };
+		921A38911E9FAC6800BC7DD4 /* tinyxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyxml2.h; sourceTree = "<group>"; };
+		921A38961E9FAC9000BC7DD4 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		921A38981E9FAC9000BC7DD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92425B951E9E51D900F909EE /* libTCLogSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTCLogSpace.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92425BA31E9E522500F909EE /* TCBaseLogEvent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCBaseLogEvent.hpp; sourceTree = "<group>"; };
+		92425BA41E9E522500F909EE /* TCBaseLogReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCBaseLogReader.hpp; sourceTree = "<group>"; };
+		92425BA61E9E522500F909EE /* TCBaseLogEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCBaseLogEvent.cpp; sourceTree = "<group>"; };
+		92425BA71E9E522500F909EE /* TCBaseLogReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCBaseLogReader.cpp; sourceTree = "<group>"; };
+		92425BAA1E9E526200F909EE /* TCLogHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCLogHeaders.h; sourceTree = "<group>"; };
+		92425BAC1E9E53F300F909EE /* TCLogBaseResultItem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCLogBaseResultItem.hpp; sourceTree = "<group>"; };
+		92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCLogBaseResultItem.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921A38931E9FAC9000BC7DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92425B921E9E51D900F909EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921A38701E9FA8AE00BC7DD4 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				921A38711E9FA8E100BC7DD4 /* TCLogConfig.xml */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+		921A388F1E9FAC6800BC7DD4 /* TinyXml */ = {
+			isa = PBXGroup;
+			children = (
+				921A38901E9FAC6800BC7DD4 /* tinyxml2.cpp */,
+				921A38911E9FAC6800BC7DD4 /* tinyxml2.h */,
+			);
+			path = TinyXml;
+			sourceTree = "<group>";
+		};
+		921A38971E9FAC9000BC7DD4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				921A38981E9FAC9000BC7DD4 /* main.cpp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		92425B8C1E9E51D900F909EE = {
+			isa = PBXGroup;
+			children = (
+				92425B971E9E51D900F909EE /* TCLogSpace */,
+				921A38971E9FAC9000BC7DD4 /* Test */,
+				92425B961E9E51D900F909EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92425B961E9E51D900F909EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92425B951E9E51D900F909EE /* libTCLogSpace.a */,
+				921A38961E9FAC9000BC7DD4 /* Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92425B971E9E51D900F909EE /* TCLogSpace */ = {
+			isa = PBXGroup;
+			children = (
+				921A38701E9FA8AE00BC7DD4 /* asset */,
+				92425BA11E9E522500F909EE /* 3rd */,
+				92425BA21E9E522500F909EE /* include */,
+				92425BA51E9E522500F909EE /* src */,
+			);
+			path = TCLogSpace;
+			sourceTree = "<group>";
+		};
+		92425BA11E9E522500F909EE /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				921A388F1E9FAC6800BC7DD4 /* TinyXml */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		92425BA21E9E522500F909EE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				92425BAA1E9E526200F909EE /* TCLogHeaders.h */,
+				92425BA31E9E522500F909EE /* TCBaseLogEvent.hpp */,
+				92425BA41E9E522500F909EE /* TCBaseLogReader.hpp */,
+				92425BAC1E9E53F300F909EE /* TCLogBaseResultItem.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		92425BA51E9E522500F909EE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */,
+				92425BA61E9E522500F909EE /* TCBaseLogEvent.cpp */,
+				92425BA71E9E522500F909EE /* TCBaseLogReader.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921A38951E9FAC9000BC7DD4 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921A389A1E9FAC9000BC7DD4 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				921A38921E9FAC9000BC7DD4 /* Sources */,
+				921A38931E9FAC9000BC7DD4 /* Frameworks */,
+				921A38941E9FAC9000BC7DD4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 921A38961E9FAC9000BC7DD4 /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
+		92425B941E9E51D900F909EE /* TCLogSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92425B9E1E9E51D900F909EE /* Build configuration list for PBXNativeTarget "TCLogSpace" */;
+			buildPhases = (
+				92425B911E9E51D900F909EE /* Sources */,
+				92425B921E9E51D900F909EE /* Frameworks */,
+				92425B931E9E51D900F909EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCLogSpace;
+			productName = TCLogSpace;
+			productReference = 92425B951E9E51D900F909EE /* libTCLogSpace.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92425B8D1E9E51D900F909EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlexiChen;
+				TargetAttributes = {
+					921A38951E9FAC9000BC7DD4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 43YJ58H38Q;
+						ProvisioningStyle = Automatic;
+					};
+					92425B941E9E51D900F909EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 43YJ58H38Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92425B901E9E51D900F909EE /* Build configuration list for PBXProject "TCLogSpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92425B8C1E9E51D900F909EE;
+			productRefGroup = 92425B961E9E51D900F909EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92425B941E9E51D900F909EE /* TCLogSpace */,
+				921A38951E9FAC9000BC7DD4 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921A38921E9FAC9000BC7DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921A389D1E9FACF300BC7DD4 /* tinyxml2.cpp in Sources */,
+				921A389E1E9FACF300BC7DD4 /* TCLogBaseResultItem.cpp in Sources */,
+				921A389F1E9FACF300BC7DD4 /* TCBaseLogEvent.cpp in Sources */,
+				921A38A01E9FACF300BC7DD4 /* TCBaseLogReader.cpp in Sources */,
+				921A38991E9FAC9000BC7DD4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92425B911E9E51D900F909EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92425BA81E9E522500F909EE /* TCBaseLogEvent.cpp in Sources */,
+				92425BAF1E9E540700F909EE /* TCLogBaseResultItem.cpp in Sources */,
+				92425BA91E9E522500F909EE /* TCBaseLogReader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		921A389B1E9FAC9000BC7DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		921A389C1E9FAC9000BC7DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92425B9C1E9E51D900F909EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92425B9D1E9E51D900F909EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92425B9F1E9E51D900F909EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92425BA01E9E51D900F909EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921A389A1E9FAC9000BC7DD4 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921A389B1E9FAC9000BC7DD4 /* Debug */,
+				921A389C1E9FAC9000BC7DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92425B901E9E51D900F909EE /* Build configuration list for PBXProject "TCLogSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92425B9C1E9E51D900F909EE /* Debug */,
+				92425B9D1E9E51D900F909EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92425B9E1E9E51D900F909EE /* Build configuration list for PBXNativeTarget "TCLogSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92425B9F1E9E51D900F909EE /* Debug */,
+				92425BA01E9E51D900F909EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92425B8D1E9E51D900F909EE /* Project object */;
+}
