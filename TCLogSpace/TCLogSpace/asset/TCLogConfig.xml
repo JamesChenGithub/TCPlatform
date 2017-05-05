@@ -1,51 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
-<!--<?xml version="1.0"?>-->
+<?xml version="1.0"?>
 <TCLogConfigList>
     <TCLogConfig platform="default">
-        <EventName>StartContext</EventName>
-        <AssembleParse>NO</AssembleParse>
-        <AssociatedEvents>
-            <AssociatedEvent></<AssociatedEvent>
-        </AssociatedEvents>
-        <EventKeyWords>
-            <EventKeyWord></<EventKeyWord>
-        </EventKeyWords>
-        <FilterKeyWords>
-            <FilterKeyWord></<FilterKeyWord>
-        </FilterKeyWords>
-    </EventList>
-    </TCLogConfig>
-</TCLogConfigList>
-
-<TCLogConfigList>
-    <TCLogConfig platform="Default">
-<!--        <EventList>-->
-<!--            <EventName>StartContext</EventName>-->
-<!--            <AssembleParse>NO</AssembleParse>-->
-<!--            <AssociatedEvents>-->
-<!--                <AssociatedEvent></<AssociatedEvent>-->
-<!--            </AssociatedEvents>-->
-<!--            <EventKeyWords>-->
-<!--                <EventKeyWord></<EventKeyWord>-->
-<!--            </EventKeyWords>-->
-<!--            <FilterKeyWords>-->
-<!--                <FilterKeyWord></<FilterKeyWord>-->
-<!--            </FilterKeyWords>-->
-<!--        </EventList>-->
         <EventList>
-            <EventName>StartContext</EventName>
-            <AssembleParse>NO</AssembleParse>
-            <AssociatedEvents>
-                <AssociatedEvent></<AssociatedEvent>
-            </AssociatedEvents>
-            <EventKeyWords>
-                <EventKeyWord></<EventKeyWord>
-            </EventKeyWords>
-            <FilterKeyWords>
-                <FilterKeyWord></<FilterKeyWord>
-            </FilterKeyWords>
+            <Event>
+                <EventName>StartContext</EventName>
+                <AssembleParse>NO</AssembleParse>
+                <AssociatedEvents>
+                    <AssociatedEvent>enterroom</AssociatedEvent>
+                    <AssociatedEvent>exitRoom</AssociatedEvent>
+                </AssociatedEvents>
+                <EventKeyWords>
+                    <EventKeyWord>start</EventKeyWord>
+                    <EventKeyWord>start over</EventKeyWord>
+                </EventKeyWords>
+                <FilterKeyWords>
+                    <FilterKeyWord>failed</FilterKeyWord>
+                    <FilterKeyWord>succ</FilterKeyWord>
+                </FilterKeyWords>
+            </Event>
         </EventList>
     </TCLogConfig>
 </TCLogConfigList>

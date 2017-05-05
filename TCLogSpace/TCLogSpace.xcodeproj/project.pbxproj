@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9206C3C11EAF57A0001EC4E8 /* TCLogConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9206C3C01EAF57A0001EC4E8 /* TCLogConfig.cpp */; };
 		921A38991E9FAC9000BC7DD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921A38981E9FAC9000BC7DD4 /* main.cpp */; };
 		921A389D1E9FACF300BC7DD4 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921A38901E9FAC6800BC7DD4 /* tinyxml2.cpp */; };
 		921A389E1E9FACF300BC7DD4 /* TCLogBaseResultItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9206C3BE1EAF5796001EC4E8 /* TCLogConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCLogConfig.hpp; sourceTree = "<group>"; };
+		9206C3C01EAF57A0001EC4E8 /* TCLogConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCLogConfig.cpp; sourceTree = "<group>"; };
 		921A38711E9FA8E100BC7DD4 /* TCLogConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TCLogConfig.xml; sourceTree = "<group>"; };
 		921A38901E9FAC6800BC7DD4 /* tinyxml2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml2.cpp; sourceTree = "<group>"; };
 		921A38911E9FAC6800BC7DD4 /* tinyxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyxml2.h; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				92425BAA1E9E526200F909EE /* TCLogHeaders.h */,
+				9206C3BE1EAF5796001EC4E8 /* TCLogConfig.hpp */,
 				92425BA31E9E522500F909EE /* TCBaseLogEvent.hpp */,
 				92425BA41E9E522500F909EE /* TCBaseLogReader.hpp */,
 				92425BAC1E9E53F300F909EE /* TCLogBaseResultItem.hpp */,
@@ -150,6 +154,7 @@
 		92425BA51E9E522500F909EE /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9206C3C01EAF57A0001EC4E8 /* TCLogConfig.cpp */,
 				92425BAE1E9E540700F909EE /* TCLogBaseResultItem.cpp */,
 				92425BA61E9E522500F909EE /* TCBaseLogEvent.cpp */,
 				92425BA71E9E522500F909EE /* TCBaseLogReader.cpp */,
@@ -253,6 +258,7 @@
 				92425BA81E9E522500F909EE /* TCBaseLogEvent.cpp in Sources */,
 				92425BAF1E9E540700F909EE /* TCLogBaseResultItem.cpp in Sources */,
 				92425BA91E9E522500F909EE /* TCBaseLogReader.cpp in Sources */,
+				9206C3C11EAF57A0001EC4E8 /* TCLogConfig.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +407,7 @@
 				921A389C1E9FAC9000BC7DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92425B901E9E51D900F909EE /* Build configuration list for PBXProject "TCLogSpace" */ = {
 			isa = XCConfigurationList;

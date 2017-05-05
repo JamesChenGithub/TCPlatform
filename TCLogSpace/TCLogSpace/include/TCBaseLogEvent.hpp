@@ -17,7 +17,7 @@ using namespace std;
 
 namespace TCLogSpace
 {
-    template<class T>
+    
     class TCBaseLogEvent
     {
     protected:
@@ -27,9 +27,6 @@ namespace TCLogSpace
         list<string>    mAssociatedEvent;       // 关联的事件
         list<string>    mEventKeyWords;         // 事件日志关键字
         list<string>    mFilterKeyWords;        // 需要过滤掉的关键字
-        
-    protected:
-        list<T> mEventResult;                   // 分析结果
         
     public:
         virtual ~TCBaseLogEvent();

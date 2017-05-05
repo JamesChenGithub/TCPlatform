@@ -8,31 +8,31 @@
 
 #include <iostream>
 
-#include "TCLogHeaders.h"
+//#include "TCLogHeaders.h"
 
-using namespace tinyxml2;
+//using namespace tinyxml2;
 
-void example2()
-{
-    XMLDocument doc;
-    doc.LoadFile("test.xml");
-    XMLElement *scene=doc.RootElement();
-    XMLElement *surface=scene->FirstChildElement("TCLogConfig");
-    while (surface)
-    {
-        XMLElement *surfaceChild=surface->FirstChildElement();
-        const char* content;
-        const XMLAttribute *attributeOfSurface = surface->FirstAttribute();
-        cout<< attributeOfSurface->Name() << ":" << attributeOfSurface->Value() << endl;
-        while(surfaceChild)
-        {
-            content=surfaceChild->GetText();
-            surfaceChild=surfaceChild->NextSiblingElement();
-            cout<<content<<endl;
-        }
-        surface=surface->NextSiblingElement();
-    }
-}
+//void example2()
+//{
+//    XMLDocument doc;
+//    doc.LoadFile("test.xml");
+//    XMLElement *scene=doc.RootElement();
+//    XMLElement *surface=scene->FirstChildElement("TCLogConfig");
+//    while (surface)
+//    {
+//        XMLElement *surfaceChild=surface->FirstChildElement();
+//        const char* content;
+//        const XMLAttribute *attributeOfSurface = surface->FirstAttribute();
+//        cout<< attributeOfSurface->Name() << ":" << attributeOfSurface->Value() << endl;
+//        while(surfaceChild)
+//        {
+//            content=surfaceChild->GetText();
+//            surfaceChild=surfaceChild->NextSiblingElement();
+//            cout<<content<<endl;
+//        }
+//        surface=surface->NextSiblingElement();
+//    }
+//}
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -64,7 +64,7 @@ int main(int argc, const char * argv[]) {
 //    delete xmldoc;
 //    xmldoc = NULL;
     
-    example2();
+//    example2();
     std::cout << "Hello, World!\n";
     return 0;
 }

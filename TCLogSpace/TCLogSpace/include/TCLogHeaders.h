@@ -12,6 +12,8 @@
 #include "tinyxml2.h"
 
 #include "TCBaseLogEvent.hpp"
+#include "TCLogConfig.hpp"
+
 #include "TCBaseLogReader.hpp"
 #include "TCLogBaseResultItem.hpp"
 

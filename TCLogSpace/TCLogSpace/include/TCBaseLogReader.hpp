@@ -11,20 +11,43 @@
 
 #include <stdio.h>
 #include <iostream>
-#include <map>
+#include <list>
 
-
+#include "TCLogConfig.hpp"
 using namespace std;
 
 namespace TCLogSpace
 {
-    template<class T>
+    // 1. 先读取配置列表；
+    // 2. 分析日志，然后找到对应的平台信息配置
+    // 3. 使用对应的平台信息去分析日志
+    
+    
     class TCBaseLogReader
     {
+        
+    protected:
+        static TCBaseLogReader *kSharedInstance;
     private:
-        map<string, shared_ptr<T>>     mEventList;         // 待支持事件的解析列表
+        list<unique_ptr<TCLogConfig>>     mEventList;         // 平台:待支持事件的解析列表
         
         
+    protected:
+        TCBaseLogReader();
+        ~TCBaseLogReader();
+    public:
+        static TCBaseLogReader *sharedInstance()
+        {
+            if (kSharedInstance == nullptr)
+            {
+                kSharedInstance = new TCBaseLogReader;
+            }
+            
+            return kSharedInstance;
+        }
+        
+    public:
+        void loadConfigFromXmlFile(std::function<void(bool, string)> callback);
         
         
     };
